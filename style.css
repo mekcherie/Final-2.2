@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-evenly;
 }
-
 .swatches {
   --color-sample-0: hsl(0, 100%, 50%);
   --color-sample-1: hsl(3.6, 100%, 50%);

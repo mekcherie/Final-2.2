@@ -26,11 +26,8 @@ template.innerHTML = `
 		  this._shadowRoot = this.attachShadow({ mode: 'open' });
 		  this._shadowRoot.appendChild(tempNode)
 
-      // get the h1 tag from the template
       this._content = this.shadowRoot.querySelector('.ticker')
-      // put the text of ticker-tape in a _text variable
       this._text = this.innerHTML
-      // put the text inside the h1 tag
       this._content.innerHTML = this._text
     }
   }
